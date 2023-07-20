@@ -1,0 +1,13 @@
+Fixing share screen windows in Google Meet
+
+If the recent google updates (Official Build) don’t fix this bug for you, here is a repair workaround for the changes made to the app:
+
+Quit Chrome
+
+Open Terminal and in Terminal reset the chrome screen capture with this script
+tccutil reset ScreenCapture com.google.Chrome
+
+Manually added Chrome:
+Open System Preferences > Security & Privacy > Privacy Tab > Screen Recording (option on lefthand side)
+Click the lock at the bottom to make changes
+Click the + and add /Applications/Google Chrome
